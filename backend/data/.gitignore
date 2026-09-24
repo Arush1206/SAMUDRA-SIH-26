@@ -1,0 +1,25 @@
+# ── Block all large telemetry and scene files ─────────────────────────────────
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.nc
+*.tif
+*.tiff
+*.geojson
+*.zip
+*.tar.gz
+
+# ── Block engine runtime output ───────────────────────────────────────────────
+*_output.json
+*_results.json
+
+# ── Always commit the hardcoded canonical test payload ────────────────────────
+!canonical_example.json
+
+# ── Keep directory stubs committed, ignore everything else inside ─────────────
+sample_ais/*
+!sample_ais/.gitkeep
+
+sample_sar/*
+!sample_sar/.gitkeep

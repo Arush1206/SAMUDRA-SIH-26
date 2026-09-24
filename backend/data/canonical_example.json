@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.1.0",
+  "incident_id": "SAM-2026-09-24-CANONICAL",
+  "scene_id": "S1A_IW_GRDH_1SDV_20260922T021500_CANONICAL",
+  "t_sat": "2026-09-22T04:15:00Z",
+  "model_version": "samudra-e1-v1.0.0",
+  "slicks": [
+    {
+      "slick_id": "S1",
+      "polygon_wgs84": {
+        "type": "Polygon",
+        "coordinates": [[
+          [72.8500, 19.0900],
+          [72.9500, 19.0900],
+          [72.9500, 19.1300],
+          [72.8500, 19.1300],
+          [72.8500, 19.0900]
+        ]]
+      },
+      "centroid": [72.88979, 19.11019],
+      "area_km2": 12.4,
+      "perimeter_km": 14.2,
+      "major_axis_deg": 104.5,
+      "major_axis_km": 5.2,
+      "minor_axis_km": 2.4,
+      "confidence": 0.91,
+      "bonn_class": "3",
+      "volume_m3": { "min": 8.2, "max": 24.7 },
+      "t0_window": ["2026-09-22T00:00:00Z", "2026-09-22T04:00:00Z"],
+      "coastal_proximity_km": 38.5,
+      "heading_ambiguous": true
+    }
+  ],
+  "_hindcast_origin": {
+    "simulation_id": "LHIND-2026-09-24-001",
+    "incident_id": "SAM-2026-09-24-CANONICAL",
+    "origin_lat": 19.11019,
+    "origin_lon": 72.88979,
+    "t0_utc": "2026-09-22T02:00:00Z",
+    "sigma_d_km": 2.5
+  }
+}

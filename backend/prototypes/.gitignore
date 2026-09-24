@@ -1,0 +1,8 @@
+# ── Python bytecode ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+
+# ── Prototype output files ────────────────────────────────────────────────────
+*_output.json
+*_attribution_output.json
+output/

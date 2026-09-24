@@ -1,0 +1,28 @@
+# ── OS artifacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# ── Editors & IDEs ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
+*.swp
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Docker runtime overrides ──────────────────────────────────────────────────
+docker-compose.override.yml
+*.log
+
+# ── Frontend build output (future) ───────────────────────────────────────────
+frontend/dist/
+frontend/node_modules/
+frontend/.next/
+frontend/build/
+frontend/.env
