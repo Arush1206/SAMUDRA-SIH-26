@@ -9,6 +9,6 @@ Standalone single-file scripts that run with zero server/database setup.
 ## Run
 ```bash
 cd samudra/backend
-source venv/bin/activate
+source samudra/backend/prototypes/engine3/.venv/bin/activate
 python prototypes/engine3_prototype.py
 ```
