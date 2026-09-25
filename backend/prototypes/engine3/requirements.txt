@@ -1,0 +1,10 @@
+# Engine 3 Prototype Dependencies
+# Forensic AIS Attribution & Dark Vessel Physics Engine
+
+numpy>=1.24.0      # Vectorized matrix math for RK4 kinematics
+pandas>=2.0.0      # DataFrame manipulation for AIS telemetry
+scipy>=1.10.0      # PCHIP splines and Brent's CPA minimization
+h3>=3.7.6          # Uber H3 Hexagonal spatial indexing (Action 2)
+pydantic>=2.0.0    # Data validation and Contract C JSON serialization (Action 7)
+rich>=13.0.0       # Beautiful terminal dashboard tables and panels (Action 7)
+scipy-stubs>=1.14.1
